@@ -18,5 +18,5 @@ services:
   angular-container:
     build: ./frontend/eheath-care-app/
     ports:
-      - 80:80
+      - 81:80
     
