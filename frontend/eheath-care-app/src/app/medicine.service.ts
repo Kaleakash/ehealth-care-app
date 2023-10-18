@@ -7,7 +7,7 @@ import { Medicine } from './medicine';
   providedIn: 'root'
 })
 export class MedicineService {
-  baseUrl:string="http://3.86.58.26:9090/medicine";
+  baseUrl:string="http://52.90.198.226:9090/medicine";
   //baseUrl:string="http://localhost:9090/medicine";
   constructor(public http:HttpClient) { }
 
